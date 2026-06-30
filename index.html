@@ -9,26 +9,30 @@
     <body>
         <div class="container">
         <h1>Gramathan SEO Tools</h1>
-        <p class="subtitle">Analyze your website SEO instantly</p>
+        <p class="subtitle">Analyze your Website SEO instantly</p>
     <div class="seo-box">
-        <input type="text" id="url-input" placeholder="Enter your website URL">
+        <input type="text" id="urlInput" placeholder="Enter your website URL">
         <button onclick="analyzeSEO()">Analyze SEO</button>
         </div>
-        <div class="result" id="result">
+        <h2 class="Report-title">SEO Analysis Report</h2>
+        <div class="results" id="result">
         <div class="card">
-            <h2>SEO Score</h2>
+            <h2>SEO score</h2>
             <p id="score">--</p>
+            <div class="progress-bar">
+            <div class="[progress" id="progress"></div>        </div>
+        </div>
         </div>
         <div class="card">
             <h2>Meta Title</h2>
             <p id="titleResult">Waiting...</p>
             </div>
         <div class="card">
-            <h2>Mata Description</h2>
+            <h2>Meta Description</h2>
             <p id="descriptionResult">Waiting..</p>
         </div>
         <div class="card">
-            <h2>mobile friendly</h2>
+            <h2>Mobile Friendly</h2>
             <p id="mobileResult">Waiting...</p>
         </div>
         </div>
